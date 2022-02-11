@@ -3,7 +3,7 @@
   flex-basis: 32px;
   display: flex;
   flex-direction: column;
-  padding: 0.6rem;
+  padding: 0 0.6rem;
   background-color: var(--primaryTheme);
   overflow: hidden;
 }
@@ -37,11 +37,6 @@
 @media only screen and (max-width: 750px) {
   .editor-wrapper.collapsed {
     margin: 0.2rem 0.5rem;
-  }
-
-  .editor-wrapper:first-child {
-    margin-top: 0.8rem;
-    padding-top: 0;
   }
 
   .editor-title.collapsed {
