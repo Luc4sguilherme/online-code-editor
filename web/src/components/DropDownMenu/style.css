@@ -1,0 +1,12 @@
+.dropdown-menu {
+  width: 250px;
+  min-height: 350px;
+  background: #fff;
+  position: absolute;
+  z-index: 100;
+  margin-top: 50px;
+  column-width: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}

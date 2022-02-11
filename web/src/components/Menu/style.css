@@ -1,0 +1,102 @@
+.menu {
+  height: 75px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background: var(--primaryTheme);
+  justify-content: space-between;
+}
+
+.controls-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px 15px;
+}
+
+.logged-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 5px 25px;
+}
+
+.user-name {
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--primaryText);
+}
+
+.logout-btn {
+  border: 0;
+  background: transparent;
+  color: red;
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logout-btn:hover {
+  color: var(--primaryText);
+}
+
+button.run-btn {
+  width: 100px;
+  height: 40px;
+  background: var(--primaryButton);
+  border: 0;
+  color: var(--primaryButtonText);
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+button.run-btn:hover {
+  background: var(--secondaryButton);
+}
+
+.drop-down-btn {
+  height: 40px;
+  border: 0;
+  border-radius: 5px;
+  padding: 0 8px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--primaryText);
+}
+
+.btn {
+  margin-left: 10px;
+  background: var(--primaryTheme);
+}
+
+.btn:hover {
+  background: #ccc;
+}
+
+.select-language {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 450px) {
+  .btn {
+    margin-left: 5px;
+  }
+
+  button.run-btn {
+    width: 70px;
+    font-size: 15px;
+  }
+
+  .drop-down-btn {
+    font-size: 15px;
+   }
+}
