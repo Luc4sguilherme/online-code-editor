@@ -94,6 +94,10 @@ function DropDownMenu({ show, changeLanguage }: DropDownMenu) {
         handler={() => handlerChangeLanguage('rust')}
       />
       <DropDownItem
+        language="Scala"
+        handler={() => handlerChangeLanguage('scala')}
+      />
+      <DropDownItem
         language="Swift"
         handler={() => handlerChangeLanguage('swift')}
       />

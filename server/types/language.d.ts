@@ -18,5 +18,6 @@ export declare type Language =
   | 'r'
   | 'ruby'
   | 'rust'
+  | 'scala'
   | 'swift'
   | 'typescript';

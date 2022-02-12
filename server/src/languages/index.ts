@@ -17,6 +17,7 @@ import python from './python/config';
 import r from './r/config';
 import ruby from './ruby/config';
 import rust from './rust/config';
+import scala from './scala/config';
 import swift from './swift/config';
 import typescript from './typescript/config';
 
@@ -40,6 +41,7 @@ export default {
   r,
   ruby,
   rust,
+  scala,
   swift,
   typescript,
 };

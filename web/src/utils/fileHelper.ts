@@ -54,6 +54,9 @@ function getExtension(language: string) {
     case 'rust':
       return 'rs';
 
+    case 'scala':
+      return 'scala';
+
     case 'swift':
       return 'swift';
 
