@@ -1,7 +1,7 @@
 # A simple online code editor
 
-![Capturar1](https://user-images.githubusercontent.com/29242243/153598419-cef5fcdb-2c14-4145-8bb7-83cb925c431e.PNG)
-![Capturar2](https://user-images.githubusercontent.com/29242243/153598426-192144cb-8b79-4a4d-aa38-c4771ca0d0d2.PNG)
+![Print1](https://user-images.githubusercontent.com/29242243/153727502-8659d6b5-8e16-4e03-87b3-7980f5ec0ce9.PNG)
+![Print2](https://user-images.githubusercontent.com/29242243/153727505-272836ad-b00e-42fe-9cc0-051556680a9f.PNG)
 
 ## 🚀 Technologies
 
