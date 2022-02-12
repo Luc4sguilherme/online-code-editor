@@ -1,5 +1,6 @@
 import bash from './bash/config';
 import c from './c/config';
+import clojure from './clojure/config';
 import cpp from './cpp/config';
 import dart from './dart/config';
 import elixir from './elixir/config';
@@ -22,6 +23,7 @@ export default {
   bash,
   c,
   cpp,
+  clojure,
   dart,
   elixir,
   go,

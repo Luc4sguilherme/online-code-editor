@@ -2,6 +2,7 @@ export declare type Language =
   | 'bash'
   | 'c'
   | 'cpp'
+  | 'clojure'
   | 'dart'
   | 'elixir'
   | 'go'
