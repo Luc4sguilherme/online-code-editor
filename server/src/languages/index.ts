@@ -9,6 +9,7 @@ import groovy from './groovy/config';
 import haskell from './haskell/config';
 import java from './java/config';
 import julia from './julia/config';
+import kotlin from './kotlin/config';
 import nodejs from './nodejs/config';
 import perl from './perl/config';
 import php from './php/config';
@@ -31,6 +32,7 @@ export default {
   haskell,
   java,
   julia,
+  kotlin,
   nodejs,
   perl,
   php,

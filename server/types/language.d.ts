@@ -10,6 +10,7 @@ export declare type Language =
   | 'haskell'
   | 'java'
   | 'julia'
+  | 'kotlin'
   | 'nodejs'
   | 'perl'
   | 'php'

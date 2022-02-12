@@ -33,6 +33,9 @@ function getExtension(language: string) {
     case 'julia':
       return 'jl';
 
+    case 'kotlin':
+      return 'kt';
+
     case 'nodejs':
       return 'js';
 
