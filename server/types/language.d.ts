@@ -12,6 +12,7 @@ export declare type Language =
   | 'julia'
   | 'kotlin'
   | 'nodejs'
+  | 'ocaml'
   | 'perl'
   | 'php'
   | 'python'

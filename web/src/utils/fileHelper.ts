@@ -39,6 +39,9 @@ function getExtension(language: string) {
     case 'nodejs':
       return 'js';
 
+    case 'ocaml':
+      return 'ml';
+
     case 'perl':
       return 'pl';
 

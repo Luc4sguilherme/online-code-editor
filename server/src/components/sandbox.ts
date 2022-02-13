@@ -94,7 +94,7 @@ class SandBox {
       userID,
     );
 
-    return this.setExecutionTimeout(command, this.executionTimeout);
+    return command;
   }
 
   private setExecutionTimeout(cmd: string[], time: number) {

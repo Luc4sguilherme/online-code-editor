@@ -11,6 +11,7 @@ import java from './java/config';
 import julia from './julia/config';
 import kotlin from './kotlin/config';
 import nodejs from './nodejs/config';
+import ocaml from './ocaml/config';
 import perl from './perl/config';
 import php from './php/config';
 import python from './python/config';
@@ -35,6 +36,7 @@ export default {
   julia,
   kotlin,
   nodejs,
+  ocaml,
   perl,
   php,
   python,

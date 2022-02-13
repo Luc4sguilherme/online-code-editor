@@ -73,6 +73,10 @@ function DropDownMenu({ show, changeLanguage }: DropDownMenu) {
         handler={() => handlerChangeLanguage('nodejs')}
       />
       <DropDownItem
+        language="OCaml"
+        handler={() => handlerChangeLanguage('ocaml')}
+      />
+      <DropDownItem
         language="Perl"
         handler={() => handlerChangeLanguage('perl')}
       />
