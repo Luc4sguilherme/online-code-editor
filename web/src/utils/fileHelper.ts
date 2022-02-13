@@ -67,7 +67,7 @@ function getExtension(language: string) {
       return 'swift';
 
     case 'typescript':
-      return 'typescript';
+      return 'ts';
 
     default:
       return 'py';
