@@ -28,19 +28,21 @@ import 'codemirror/mode/clike/clike';
 import 'codemirror/mode/shell/shell';
 import 'codemirror/mode/haskell/haskell';
 import 'codemirror/mode/erlang/erlang';
+import 'codemirror/mode/clojure/clojure';
+import 'codemirror/mode/mllike/mllike';
 
 import './style.css';
 
 import { useTheme } from '../../contexts/themeContext';
+import codeMirrorHelper from '../../utils/codeMirrorHelper';
 
 type EditorProps = {
-  displayName: string;
   language: string;
   value: string;
   onChange: React.Dispatch<React.SetStateAction<string>>;
 };
 
-function Editor({ displayName, language, value, onChange }: EditorProps) {
+function Editor({ language, value, onChange }: EditorProps) {
   const { theme } = useTheme();
 
   function handleChange(currentValue: string) {
@@ -70,7 +72,7 @@ function Editor({ displayName, language, value, onChange }: EditorProps) {
         className="code-mirror-wrapper"
         options={{
           lineWrapping: true,
-          mode: language,
+          mode: codeMirrorHelper.getMode(language),
           extraKeys: { 'Ctrl-Space': 'autocomplete' },
           matchBrackets: true,
           autoCloseBrackets: true,
