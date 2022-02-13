@@ -9,6 +9,9 @@ function getMode(language: string) {
     case 'cpp':
       return 'text/x-c++src';
 
+    case 'csharp':
+      return 'text/x-csharp';
+
     case 'clojure':
       return 'text/x-clojure';
 

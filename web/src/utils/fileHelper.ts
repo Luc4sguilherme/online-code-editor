@@ -9,6 +9,9 @@ function getExtension(language: string) {
     case 'cpp':
       return 'cpp';
 
+    case 'csharp':
+      return 'cs';
+
     case 'clojure':
       return 'clj';
 

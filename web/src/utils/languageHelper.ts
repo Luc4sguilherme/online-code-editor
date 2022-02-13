@@ -9,6 +9,9 @@ function getFormatted(language: string) {
     case 'cpp':
       return 'C++';
 
+    case 'csharp':
+      return 'C#';
+
     case 'clojure':
       return 'Clojure';
 

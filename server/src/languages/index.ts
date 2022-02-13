@@ -2,6 +2,7 @@ import bash from './bash/config';
 import c from './c/config';
 import clojure from './clojure/config';
 import cpp from './cpp/config';
+import csharp from './csharp/config';
 import dart from './dart/config';
 import elixir from './elixir/config';
 import erlang from './erlang/config';
@@ -28,6 +29,7 @@ export default {
   c,
   cpp,
   clojure,
+  csharp,
   dart,
   elixir,
   erlang,
