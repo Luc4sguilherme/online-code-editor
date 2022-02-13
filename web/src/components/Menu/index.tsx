@@ -9,6 +9,7 @@ import LogoutIcon from '@mui/icons-material/Logout';
 import { useAuth } from '../../contexts/authContext';
 import { useLanguage } from '../../contexts/languageContext';
 import { useResult } from '../../contexts/resultContext';
+import languageHelper from '../../utils/languageHelper';
 import DropDownMenu from '../DropDownMenu';
 import ThemeSwitcher from '../ThemeSwitcher';
 
@@ -36,7 +37,7 @@ function Menu() {
             className="drop-down-btn btn"
             onClick={() => setDropDownState(prev => !prev)}
           >
-            {language}
+            {languageHelper.getFormatted(language)}
             {dropDownState ? (
               <ArrowDropUpIcon style={{ color: 'var(--primaryText)' }} />
             ) : (
