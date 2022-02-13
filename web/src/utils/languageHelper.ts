@@ -72,6 +72,9 @@ function getFormatted(language: string) {
     case 'typescript':
       return 'Typescript';
 
+    case 'visualbasic':
+      return 'VB.net';
+
     default:
       return 'Python';
   }

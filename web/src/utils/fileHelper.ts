@@ -72,6 +72,9 @@ function getExtension(language: string) {
     case 'typescript':
       return 'ts';
 
+    case 'visualbasic':
+      return 'vb';
+
     default:
       return 'py';
   }

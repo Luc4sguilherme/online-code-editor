@@ -75,6 +75,9 @@ function getMode(language: string) {
     case 'python':
       return 'text/x-python';
 
+    case 'visualbasic':
+      return 'text/x-vb';
+
     default:
       return 'javascript';
   }

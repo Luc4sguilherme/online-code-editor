@@ -30,6 +30,7 @@ import 'codemirror/mode/haskell/haskell';
 import 'codemirror/mode/erlang/erlang';
 import 'codemirror/mode/clojure/clojure';
 import 'codemirror/mode/mllike/mllike';
+import 'codemirror/mode/vb/vb';
 
 import './style.css';
 

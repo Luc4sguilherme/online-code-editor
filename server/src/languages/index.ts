@@ -23,6 +23,7 @@ import rust from './rust/config';
 import scala from './scala/config';
 import swift from './swift/config';
 import typescript from './typescript/config';
+import visualbasic from './visualbasic/config';
 
 export default {
   bash,
@@ -50,4 +51,5 @@ export default {
   scala,
   swift,
   typescript,
+  visualbasic,
 };

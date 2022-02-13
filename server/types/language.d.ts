@@ -23,4 +23,5 @@ export declare type Language =
   | 'rust'
   | 'scala'
   | 'swift'
-  | 'typescript';
+  | 'typescript'
+  | 'visualbasic';

@@ -117,6 +117,10 @@ function DropDownMenu({ show, changeLanguage }: DropDownMenu) {
         language="Typescript"
         handler={() => languageChangeHandler('typescript')}
       />
+      <DropDownItem
+        language="VB.net"
+        handler={() => languageChangeHandler('visualbasic')}
+      />
     </div>
   );
 }
