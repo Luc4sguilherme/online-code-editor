@@ -27,6 +27,7 @@ import 'codemirror/mode/groovy/groovy';
 import 'codemirror/mode/clike/clike';
 import 'codemirror/mode/shell/shell';
 import 'codemirror/mode/haskell/haskell';
+import 'codemirror/mode/erlang/erlang';
 
 import './style.css';
 

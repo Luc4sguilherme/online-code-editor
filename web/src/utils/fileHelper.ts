@@ -18,6 +18,9 @@ function getExtension(language: string) {
     case 'elixir':
       return 'ex';
 
+    case 'erlang':
+      return 'erl';
+
     case 'go':
       return 'go';
 

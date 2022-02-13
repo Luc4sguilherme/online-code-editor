@@ -47,6 +47,10 @@ function DropDownMenu({ show, changeLanguage }: DropDownMenu) {
         language="Elixir"
         handler={() => handlerChangeLanguage('elixir')}
       />
+      <DropDownItem
+        language="Erlang"
+        handler={() => handlerChangeLanguage('erlang')}
+      />
       <DropDownItem language="Go" handler={() => handlerChangeLanguage('go')} />
       <DropDownItem
         language="Groovy"

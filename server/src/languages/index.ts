@@ -4,6 +4,7 @@ import clojure from './clojure/config';
 import cpp from './cpp/config';
 import dart from './dart/config';
 import elixir from './elixir/config';
+import erlang from './erlang/config';
 import go from './go/config';
 import groovy from './groovy/config';
 import haskell from './haskell/config';
@@ -29,6 +30,7 @@ export default {
   clojure,
   dart,
   elixir,
+  erlang,
   go,
   groovy,
   haskell,

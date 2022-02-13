@@ -5,6 +5,7 @@ export declare type Language =
   | 'clojure'
   | 'dart'
   | 'elixir'
+  | 'erlang'
   | 'go'
   | 'groovy'
   | 'haskell'
