@@ -12,7 +12,7 @@ type DropDownMenu = {
 function DropDownMenu({ show, changeLanguage }: DropDownMenu) {
   const dropDownMenuRef = useRef<HTMLDivElement>(null);
 
-  function handlerChangeLanguage(language: string) {
+  function languageChangeHandler(language: string) {
     changeLanguage(language);
 
     if (dropDownMenuRef.current) {
@@ -28,94 +28,94 @@ function DropDownMenu({ show, changeLanguage }: DropDownMenu) {
     >
       <DropDownItem
         language="Bash"
-        handler={() => handlerChangeLanguage('bash')}
+        handler={() => languageChangeHandler('bash')}
       />
-      <DropDownItem language="C" handler={() => handlerChangeLanguage('c')} />
+      <DropDownItem language="C" handler={() => languageChangeHandler('c')} />
       <DropDownItem
         language="C++"
-        handler={() => handlerChangeLanguage('cpp')}
+        handler={() => languageChangeHandler('cpp')}
       />
       <DropDownItem
         language="C#"
-        handler={() => handlerChangeLanguage('csharp')}
+        handler={() => languageChangeHandler('csharp')}
       />
       <DropDownItem
         language="Clojure"
-        handler={() => handlerChangeLanguage('clojure')}
+        handler={() => languageChangeHandler('clojure')}
       />
       <DropDownItem
         language="Dart"
-        handler={() => handlerChangeLanguage('dart')}
+        handler={() => languageChangeHandler('dart')}
       />
       <DropDownItem
         language="Elixir"
-        handler={() => handlerChangeLanguage('elixir')}
+        handler={() => languageChangeHandler('elixir')}
       />
       <DropDownItem
         language="Erlang"
-        handler={() => handlerChangeLanguage('erlang')}
+        handler={() => languageChangeHandler('erlang')}
       />
-      <DropDownItem language="Go" handler={() => handlerChangeLanguage('go')} />
+      <DropDownItem language="Go" handler={() => languageChangeHandler('go')} />
       <DropDownItem
         language="Groovy"
-        handler={() => handlerChangeLanguage('groovy')}
+        handler={() => languageChangeHandler('groovy')}
       />
       <DropDownItem
         language="Haskell"
-        handler={() => handlerChangeLanguage('haskell')}
+        handler={() => languageChangeHandler('haskell')}
       />
       <DropDownItem
         language="Java"
-        handler={() => handlerChangeLanguage('java')}
+        handler={() => languageChangeHandler('java')}
       />
       <DropDownItem
         language="Julia"
-        handler={() => handlerChangeLanguage('julia')}
+        handler={() => languageChangeHandler('julia')}
       />
       <DropDownItem
         language="Kotlin"
-        handler={() => handlerChangeLanguage('kotlin')}
+        handler={() => languageChangeHandler('kotlin')}
       />
       <DropDownItem
         language="Nodejs"
-        handler={() => handlerChangeLanguage('nodejs')}
+        handler={() => languageChangeHandler('nodejs')}
       />
       <DropDownItem
         language="OCaml"
-        handler={() => handlerChangeLanguage('ocaml')}
+        handler={() => languageChangeHandler('ocaml')}
       />
       <DropDownItem
         language="Perl"
-        handler={() => handlerChangeLanguage('perl')}
+        handler={() => languageChangeHandler('perl')}
       />
       <DropDownItem
         language="PHP"
-        handler={() => handlerChangeLanguage('php')}
+        handler={() => languageChangeHandler('php')}
       />
       <DropDownItem
         language="Python"
-        handler={() => handlerChangeLanguage('python')}
+        handler={() => languageChangeHandler('python')}
       />
-      <DropDownItem language="R" handler={() => handlerChangeLanguage('r')} />
+      <DropDownItem language="R" handler={() => languageChangeHandler('r')} />
       <DropDownItem
         language="Ruby"
-        handler={() => handlerChangeLanguage('ruby')}
+        handler={() => languageChangeHandler('ruby')}
       />
       <DropDownItem
         language="Rust"
-        handler={() => handlerChangeLanguage('rust')}
+        handler={() => languageChangeHandler('rust')}
       />
       <DropDownItem
         language="Scala"
-        handler={() => handlerChangeLanguage('scala')}
+        handler={() => languageChangeHandler('scala')}
       />
       <DropDownItem
         language="Swift"
-        handler={() => handlerChangeLanguage('swift')}
+        handler={() => languageChangeHandler('swift')}
       />
       <DropDownItem
         language="Typescript"
-        handler={() => handlerChangeLanguage('typescript')}
+        handler={() => languageChangeHandler('typescript')}
       />
     </div>
   );
