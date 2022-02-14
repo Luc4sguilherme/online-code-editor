@@ -1,3 +1,3 @@
-FROM zenika/kotlin:alpine
+FROM zenika/kotlin:slim
 
 WORKDIR /usr/src/app
