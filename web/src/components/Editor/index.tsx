@@ -31,6 +31,7 @@ import 'codemirror/mode/erlang/erlang';
 import 'codemirror/mode/clojure/clojure';
 import 'codemirror/mode/mllike/mllike';
 import 'codemirror/mode/vb/vb';
+import 'codemirror/mode/gas/gas';
 
 import './style.css';
 

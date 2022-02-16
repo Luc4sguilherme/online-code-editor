@@ -1,4 +1,5 @@
 export declare type Language =
+  | 'assembly32bit'
   | 'bash'
   | 'c'
   | 'cpp'

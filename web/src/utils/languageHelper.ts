@@ -1,5 +1,8 @@
 function getFormatted(language: string) {
   switch (language) {
+    case 'assembly32bit':
+      return 'Assembly 32bit';
+
     case 'bash':
       return 'Bash';
 

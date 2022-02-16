@@ -1,5 +1,8 @@
 function getMode(language: string) {
   switch (language) {
+    case 'assembly32bit':
+      return 'gas';
+
     case 'bash':
       return 'text/x-sh';
 

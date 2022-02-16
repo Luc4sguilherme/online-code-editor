@@ -27,6 +27,10 @@ function DropDownMenu({ show, changeLanguage }: DropDownMenu) {
       ref={dropDownMenuRef}
     >
       <DropDownItem
+        language="Assembly 32bit"
+        handler={() => languageChangeHandler('assembly32bit')}
+      />
+      <DropDownItem
         language="Bash"
         handler={() => languageChangeHandler('bash')}
       />

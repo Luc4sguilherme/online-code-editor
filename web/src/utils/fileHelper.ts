@@ -1,5 +1,8 @@
 function getExtension(language: string) {
   switch (language) {
+    case 'assembly32bit':
+      return 'asm';
+
     case 'bash':
       return 'sh';
 
