@@ -3,6 +3,9 @@ function getMode(language: string) {
     case 'assembly32bit':
       return 'gas';
 
+    case 'assembly64bit':
+      return 'gas';
+
     case 'bash':
       return 'text/x-sh';
 

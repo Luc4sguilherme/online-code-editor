@@ -3,6 +3,9 @@ function getFormatted(language: string) {
     case 'assembly32bit':
       return 'Assembly 32bit';
 
+    case 'assembly64bit':
+      return 'Assembly 64bit';
+
     case 'bash':
       return 'Bash';
 

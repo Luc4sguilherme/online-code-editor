@@ -3,6 +3,9 @@ function getExtension(language: string) {
     case 'assembly32bit':
       return 'asm';
 
+    case 'assembly64bit':
+      return 'asm';
+
     case 'bash':
       return 'sh';
 

@@ -1,4 +1,5 @@
 import assembly32bit from './assembly32bit/config';
+import assembly64bit from './assembly64bit/config';
 import bash from './bash/config';
 import c from './c/config';
 import clojure from './clojure/config';
@@ -29,6 +30,7 @@ import visualbasic from './visualbasic/config';
 
 export default {
   assembly32bit,
+  assembly64bit,
   bash,
   c,
   cpp,
