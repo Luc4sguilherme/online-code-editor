@@ -81,6 +81,10 @@ function DropDownMenu({ show, changeLanguage }: DropDownMenu) {
         handler={() => languageChangeHandler('nodejs')}
       />
       <DropDownItem
+        language="Objective-C"
+        handler={() => languageChangeHandler('objectivec')}
+      />
+      <DropDownItem
         language="OCaml"
         handler={() => languageChangeHandler('ocaml')}
       />

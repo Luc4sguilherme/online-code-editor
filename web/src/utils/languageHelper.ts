@@ -45,6 +45,9 @@ function getFormatted(language: string) {
     case 'nodejs':
       return 'Nodejs';
 
+    case 'objectivec':
+      return 'Objective-C';
+
     case 'ocaml':
       return 'OCaml';
 

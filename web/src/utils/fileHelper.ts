@@ -45,6 +45,9 @@ function getExtension(language: string) {
     case 'nodejs':
       return 'js';
 
+    case 'objectivec':
+      return 'm';
+
     case 'ocaml':
       return 'ml';
 

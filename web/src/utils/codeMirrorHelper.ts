@@ -45,6 +45,9 @@ function getMode(language: string) {
     case 'nodejs':
       return 'javascript';
 
+    case 'objectivec':
+      return 'text/x-objectivec';
+
     case 'ocaml':
       return 'text/x-ocaml';
 
