@@ -15,6 +15,7 @@
     "@mui/material": "^5.4.1",
     "axios": "^0.25.0",
     "codemirror": "^5.57.0",
+    "codemirror-mode-elixir": "^1.1.2",
     "react": "^17.0.2",
     "react-codemirror2": "^7.2.1",
     "react-dom": "^17.0.2",
