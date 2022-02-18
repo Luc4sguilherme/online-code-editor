@@ -109,12 +109,7 @@ function Home() {
       <Error>
         <div className="container">
           <div className="pane top-pane" ref={paneTopRef}>
-            <Editor
-              language={language}
-              displayName={language.toUpperCase()}
-              onChange={setCode}
-              value={code}
-            />
+            <Editor language={language} onChange={setCode} value={code} />
           </div>
           <div
             className="editor-drag-cover"
