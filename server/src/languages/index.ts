@@ -19,7 +19,7 @@ import objectivec from './objectivec/config';
 import ocaml from './ocaml/config';
 import perl from './perl/config';
 import php from './php/config';
-import python from './python/config';
+import python3 from './python3/config';
 import r from './r/config';
 import ruby from './ruby/config';
 import rust from './rust/config';
@@ -50,7 +50,7 @@ export default {
   ocaml,
   perl,
   php,
-  python,
+  python3,
   r,
   ruby,
   rust,

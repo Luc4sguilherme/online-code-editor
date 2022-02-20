@@ -85,7 +85,7 @@ function getFormatted(language: string) {
       return 'VB.net';
 
     default:
-      return 'Python';
+      return 'Python 3';
   }
 }
 

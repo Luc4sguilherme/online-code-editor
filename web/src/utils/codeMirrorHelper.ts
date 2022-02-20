@@ -81,7 +81,7 @@ function getMode(language: string) {
     case 'typescript':
       return 'text/typescript';
 
-    case 'python':
+    case 'python3':
       return 'text/x-python';
 
     case 'visualbasic':

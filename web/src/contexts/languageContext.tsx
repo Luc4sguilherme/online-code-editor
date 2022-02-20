@@ -13,7 +13,7 @@ const LanguageContext = createContext<LanguageContextData>(
   {} as LanguageContextData,
 );
 
-const DEFAULT_LANGUAGE = 'python';
+const DEFAULT_LANGUAGE = 'python3';
 
 export function LanguageProvider({ children }: LanguageProviderProps) {
   const [language, setLanguage] = useState(DEFAULT_LANGUAGE);
