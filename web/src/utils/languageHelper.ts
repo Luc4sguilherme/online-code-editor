@@ -30,6 +30,9 @@ function getFormatted(language: string) {
     case 'erlang':
       return 'Erlang';
 
+    case 'fsharp':
+      return 'F#';
+
     case 'go':
       return 'Go';
 

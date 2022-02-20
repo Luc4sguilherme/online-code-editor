@@ -30,6 +30,9 @@ function getExtension(language: string) {
     case 'erlang':
       return 'erl';
 
+    case 'fsharp':
+      return 'fs';
+
     case 'go':
       return 'go';
 

@@ -9,6 +9,7 @@ export declare type Language =
   | 'dart'
   | 'elixir'
   | 'erlang'
+  | 'fsharp'
   | 'go'
   | 'groovy'
   | 'haskell'

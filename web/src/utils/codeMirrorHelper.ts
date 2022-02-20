@@ -30,6 +30,9 @@ function getMode(language: string) {
     case 'erlang':
       return 'text/x-erlang';
 
+    case 'fsharp':
+      return 'text/x-fsharp';
+
     case 'go':
       return 'text/x-go';
 
