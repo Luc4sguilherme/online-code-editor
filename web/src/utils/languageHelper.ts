@@ -63,6 +63,9 @@ function getFormatted(language: string) {
     case 'php':
       return 'PHP';
 
+    case 'python':
+      return 'Python';
+
     case 'r':
       return 'R';
 

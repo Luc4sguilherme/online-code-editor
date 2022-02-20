@@ -105,6 +105,10 @@ function DropDownMenu({ show, changeLanguage }: DropDownMenu) {
         handler={() => languageChangeHandler('php')}
       />
       <DropDownItem
+        language="Python"
+        handler={() => languageChangeHandler('python')}
+      />
+      <DropDownItem
         language="Python 3"
         handler={() => languageChangeHandler('python3')}
       />

@@ -20,6 +20,7 @@ export declare type Language =
   | 'ocaml'
   | 'perl'
   | 'php'
+  | 'python'
   | 'python3'
   | 'r'
   | 'ruby'
