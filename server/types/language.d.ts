@@ -15,6 +15,7 @@ export declare type Language =
   | 'java'
   | 'julia'
   | 'kotlin'
+  | 'lua'
   | 'nodejs'
   | 'objectivec'
   | 'ocaml'

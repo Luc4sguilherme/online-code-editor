@@ -48,6 +48,9 @@ function getFormatted(language: string) {
     case 'kotlin':
       return 'Kotlin';
 
+    case 'lua':
+      return 'Lua';
+
     case 'nodejs':
       return 'Nodejs';
 

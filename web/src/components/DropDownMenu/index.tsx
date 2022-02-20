@@ -85,6 +85,10 @@ function DropDownMenu({ show, changeLanguage }: DropDownMenu) {
         handler={() => languageChangeHandler('kotlin')}
       />
       <DropDownItem
+        language="Lua"
+        handler={() => languageChangeHandler('lua')}
+      />
+      <DropDownItem
         language="Nodejs"
         handler={() => languageChangeHandler('nodejs')}
       />

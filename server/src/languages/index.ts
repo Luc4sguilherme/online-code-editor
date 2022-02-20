@@ -14,6 +14,7 @@ import haskell from './haskell/config';
 import java from './java/config';
 import julia from './julia/config';
 import kotlin from './kotlin/config';
+import lua from './lua/config';
 import nodejs from './nodejs/config';
 import objectivec from './objectivec/config';
 import ocaml from './ocaml/config';
@@ -46,6 +47,7 @@ export default {
   java,
   julia,
   kotlin,
+  lua,
   nodejs,
   objectivec,
   ocaml,

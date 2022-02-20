@@ -48,6 +48,9 @@ function getMode(language: string) {
     case 'kotlin':
       return 'text/x-kotlin';
 
+    case 'lua':
+      return 'text/x-lua';
+
     case 'nodejs':
       return 'javascript';
 

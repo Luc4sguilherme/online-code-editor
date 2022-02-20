@@ -48,6 +48,9 @@ function getExtension(language: string) {
     case 'kotlin':
       return 'kt';
 
+    case 'lua':
+      return 'lua';
+
     case 'nodejs':
       return 'js';
 
