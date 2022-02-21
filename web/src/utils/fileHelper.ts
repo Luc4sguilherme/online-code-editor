@@ -63,6 +63,9 @@ function getExtension(language: string) {
     case 'ocaml':
       return 'ml';
 
+    case 'pascal':
+      return 'pas';
+
     case 'perl':
       return 'pl';
 

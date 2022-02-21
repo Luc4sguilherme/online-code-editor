@@ -63,6 +63,9 @@ function getFormatted(language: string) {
     case 'ocaml':
       return 'OCaml';
 
+    case 'pascal':
+      return 'Pascal';
+
     case 'perl':
       return 'Perl';
 

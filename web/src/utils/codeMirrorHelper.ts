@@ -63,6 +63,9 @@ function getMode(language: string) {
     case 'ocaml':
       return 'text/x-ocaml';
 
+    case 'pascal':
+      return 'text/x-pascal';
+
     case 'perl':
       return 'text/x-perl';
 

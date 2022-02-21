@@ -105,6 +105,10 @@ function DropDownMenu({ show, changeLanguage }: DropDownMenu) {
         handler={() => languageChangeHandler('ocaml')}
       />
       <DropDownItem
+        language="Pascal"
+        handler={() => languageChangeHandler('pascal')}
+      />
+      <DropDownItem
         language="Perl"
         handler={() => languageChangeHandler('perl')}
       />

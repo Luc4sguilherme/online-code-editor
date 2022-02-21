@@ -19,6 +19,7 @@ import lua from './lua/config';
 import nodejs from './nodejs/config';
 import objectivec from './objectivec/config';
 import ocaml from './ocaml/config';
+import pascal from './pascal/config';
 import perl from './perl/config';
 import php from './php/config';
 import python from './python/config';
@@ -53,6 +54,7 @@ export default {
   nodejs,
   objectivec,
   ocaml,
+  pascal,
   perl,
   php,
   python,

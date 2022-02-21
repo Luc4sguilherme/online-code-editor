@@ -20,6 +20,7 @@ export declare type Language =
   | 'nodejs'
   | 'objectivec'
   | 'ocaml'
+  | 'pascal'
   | 'perl'
   | 'php'
   | 'python'
