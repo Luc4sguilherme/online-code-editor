@@ -7,7 +7,7 @@
 
 .top-pane {
   background: var(--primaryTheme);
-  height: calc(100% - 78px) !important;
+  height: calc(100% - 92px) !important;
   width: 100%;
 }
 
