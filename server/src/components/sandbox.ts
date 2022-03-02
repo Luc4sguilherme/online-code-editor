@@ -115,7 +115,7 @@ class SandBox {
 
     command[2] = command[2].replace(
       /{path}/g,
-      `./temp/user-${userID}/${language}/${archiveName}`,
+      `${this.defaultFolder}/user-${userID}/${language}/${archiveName}`,
     );
 
     return command;
@@ -171,7 +171,7 @@ class SandBox {
       HostConfig: {
         AutoRemove: true,
         Binds: [
-          `${this.defaultFolder}/user-${userID}:/usr/src/app/temp/user-${userID}`,
+          `${this.defaultFolder}/user-${userID}:${this.defaultFolder}/user-${userID}`,
         ],
       },
     });
