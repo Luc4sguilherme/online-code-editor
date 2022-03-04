@@ -3,7 +3,6 @@ import {
   Routes,
   Route,
   Navigate,
-  Outlet,
   useLocation,
 } from 'react-router-dom';
 
@@ -16,7 +15,7 @@ function PrivatedRoute() {
   const location = useLocation();
 
   return signed ? (
-    <Outlet />
+    <Home />
   ) : (
     <Navigate to="/login" replace state={{ from: location }} />
   );
@@ -27,9 +26,7 @@ function RoutesContainer() {
     <BrowserRouter>
       <Routes>
         <Route path="/login" element={<Login />} />
-        <Route path="/*" element={<PrivatedRoute />}>
-          <Route path="home" element={<Home />} />
-        </Route>
+        <Route path="*" element={<PrivatedRoute />} />
       </Routes>
     </BrowserRouter>
   );
