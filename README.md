@@ -23,23 +23,8 @@ This project was developed with the following technologies:
 
 ## :information_source: How To Use
 
-From your command line:
-
-### Server
-  - Install dependencies: `npm install`
-
-  - Create a `.env` file by following the `.env.example` file
-
-  - Run the server app: `npm start`
-
-### Web
-  - Install dependencies: `npm install`
-
-  - Create a `.env` file by following the `.env.example` file
-
-  - Run the web app: `npm run dev`
-
-### Access the URL in your browser: `http://localhost:3000`
+- From your command line: `docker-compose -d up`
+- Access the URL in your browser: `http://localhost`
 
 ## Author
 
