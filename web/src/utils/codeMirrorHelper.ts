@@ -27,6 +27,9 @@ function getMode(language: string) {
     case 'cobol':
       return 'text/x-cobol';
 
+    case 'commonlisp':
+      return 'text/x-common-lisp';
+
     case 'coffeescript':
       return 'text/x-coffeescript';
 

@@ -5,6 +5,7 @@ import c from './c/config';
 import clojure from './clojure/config';
 import cobol from './cobol/config';
 import coffeescript from './coffeescript/config';
+import commonlisp from './commonlisp/config';
 import cpp from './cpp/config';
 import crystal from './crystal/config';
 import csharp from './csharp/config';
@@ -44,6 +45,7 @@ export default {
   cpp,
   clojure,
   cobol,
+  commonlisp,
   coffeescript,
   csharp,
   crystal,

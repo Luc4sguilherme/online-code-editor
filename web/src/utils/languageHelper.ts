@@ -27,6 +27,9 @@ function getFormatted(language: string) {
     case 'cobol':
       return 'Cobol';
 
+    case 'commonlisp':
+      return 'Common Lisp';
+
     case 'coffeescript':
       return 'CoffeeScript';
 
