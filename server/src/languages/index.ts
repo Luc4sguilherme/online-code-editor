@@ -4,6 +4,7 @@ import bash from './bash/config';
 import c from './c/config';
 import clojure from './clojure/config';
 import cpp from './cpp/config';
+import crystal from './crystal/config';
 import csharp from './csharp/config';
 import dart from './dart/config';
 import elixir from './elixir/config';
@@ -40,6 +41,7 @@ export default {
   cpp,
   clojure,
   csharp,
+  crystal,
   dart,
   elixir,
   erlang,

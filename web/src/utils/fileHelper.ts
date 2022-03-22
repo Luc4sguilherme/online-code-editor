@@ -21,6 +21,9 @@ function getExtension(language: string) {
     case 'clojure':
       return 'clj';
 
+    case 'crystal':
+      return 'cr';
+
     case 'dart':
       return 'dart';
 

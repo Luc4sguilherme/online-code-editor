@@ -21,6 +21,9 @@ function getMode(language: string) {
     case 'clojure':
       return 'text/x-clojure';
 
+    case 'crystal':
+      return 'text/x-crystal';
+
     case 'dart':
       return 'dart';
 

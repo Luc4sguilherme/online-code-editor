@@ -6,6 +6,7 @@ export declare type Language =
   | 'cpp'
   | 'csharp'
   | 'clojure'
+  | 'crystal'
   | 'dart'
   | 'elixir'
   | 'erlang'

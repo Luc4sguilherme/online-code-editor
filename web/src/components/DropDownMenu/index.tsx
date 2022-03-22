@@ -52,6 +52,10 @@ function DropDownMenu({ show, changeLanguage }: DropDownMenu) {
         handler={() => languageChangeHandler('clojure')}
       />
       <DropDownItem
+        language="Crystal"
+        handler={() => languageChangeHandler('crystal')}
+      />
+      <DropDownItem
         language="Dart"
         handler={() => languageChangeHandler('dart')}
       />

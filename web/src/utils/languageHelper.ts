@@ -21,6 +21,9 @@ function getFormatted(language: string) {
     case 'clojure':
       return 'Clojure';
 
+    case 'crystal':
+      return 'Crystal';
+
     case 'dart':
       return 'Dart';
 
