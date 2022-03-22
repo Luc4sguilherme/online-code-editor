@@ -33,6 +33,9 @@ function getFormatted(language: string) {
     case 'erlang':
       return 'Erlang';
 
+    case 'fortran':
+      return 'Fortran';
+
     case 'fsharp':
       return 'F#';
 

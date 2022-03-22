@@ -68,6 +68,10 @@ function DropDownMenu({ show, changeLanguage }: DropDownMenu) {
         handler={() => languageChangeHandler('erlang')}
       />
       <DropDownItem
+        language="Fortran"
+        handler={() => languageChangeHandler('fortran')}
+      />
+      <DropDownItem
         language="F#"
         handler={() => languageChangeHandler('fsharp')}
       />

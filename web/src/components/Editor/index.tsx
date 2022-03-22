@@ -36,6 +36,7 @@ import 'codemirror/mode/lua/lua';
 import 'codemirror/mode/pascal/pascal';
 import 'codemirror-mode-elixir';
 import 'codemirror/mode/crystal/crystal';
+import 'codemirror/mode/fortran/fortran';
 
 import './style.css';
 

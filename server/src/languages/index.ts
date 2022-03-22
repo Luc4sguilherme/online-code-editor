@@ -9,6 +9,7 @@ import csharp from './csharp/config';
 import dart from './dart/config';
 import elixir from './elixir/config';
 import erlang from './erlang/config';
+import fortran from './fortran/config';
 import fsharp from './fsharp/config';
 import go from './go/config';
 import groovy from './groovy/config';
@@ -45,6 +46,7 @@ export default {
   dart,
   elixir,
   erlang,
+  fortran,
   fsharp,
   go,
   groovy,

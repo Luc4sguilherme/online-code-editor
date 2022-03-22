@@ -33,6 +33,9 @@ function getMode(language: string) {
     case 'erlang':
       return 'text/x-erlang';
 
+    case 'fortran':
+      return 'text/x-fortran';
+
     case 'fsharp':
       return 'text/x-fsharp';
 

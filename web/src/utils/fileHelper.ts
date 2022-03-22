@@ -33,6 +33,9 @@ function getExtension(language: string) {
     case 'erlang':
       return 'erl';
 
+    case 'fortran':
+      return 'f';
+
     case 'fsharp':
       return 'fs';
 
