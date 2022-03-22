@@ -27,6 +27,9 @@ function getExtension(language: string) {
     case 'cobol':
       return 'cob';
 
+    case 'coffeescript':
+      return 'coffee';
+
     case 'dart':
       return 'dart';
 

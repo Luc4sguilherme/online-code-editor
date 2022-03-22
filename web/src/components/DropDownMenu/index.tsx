@@ -60,6 +60,10 @@ function DropDownMenu({ show, changeLanguage }: DropDownMenu) {
         handler={() => languageChangeHandler('cobol')}
       />
       <DropDownItem
+        language="CoffeeScript"
+        handler={() => languageChangeHandler('coffeescript')}
+      />
+      <DropDownItem
         language="Dart"
         handler={() => languageChangeHandler('dart')}
       />

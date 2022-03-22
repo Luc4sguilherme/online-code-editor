@@ -8,6 +8,7 @@ export declare type Language =
   | 'clojure'
   | 'crystal'
   | 'cobol'
+  | 'coffeescript'
   | 'dart'
   | 'elixir'
   | 'erlang'

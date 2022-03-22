@@ -27,6 +27,9 @@ function getFormatted(language: string) {
     case 'cobol':
       return 'Cobol';
 
+    case 'coffeescript':
+      return 'CoffeeScript';
+
     case 'dart':
       return 'Dart';
 
