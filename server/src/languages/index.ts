@@ -3,11 +3,16 @@ import assembly64bit from './assembly64bit/config';
 import bash from './bash/config';
 import c from './c/config';
 import clojure from './clojure/config';
+import cobol from './cobol/config';
+import coffeescript from './coffeescript/config';
+import commonlisp from './commonlisp/config';
 import cpp from './cpp/config';
+import crystal from './crystal/config';
 import csharp from './csharp/config';
 import dart from './dart/config';
 import elixir from './elixir/config';
 import erlang from './erlang/config';
+import fortran from './fortran/config';
 import fsharp from './fsharp/config';
 import go from './go/config';
 import groovy from './groovy/config';
@@ -39,10 +44,15 @@ export default {
   c,
   cpp,
   clojure,
+  cobol,
+  commonlisp,
+  coffeescript,
   csharp,
+  crystal,
   dart,
   elixir,
   erlang,
+  fortran,
   fsharp,
   go,
   groovy,

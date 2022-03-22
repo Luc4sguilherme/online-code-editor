@@ -1,12 +1,32 @@
 .dropdown-menu {
   width: 250px;
   min-height: 350px;
+  max-height: 380px;
+  overflow-y: auto;
   background: #fff;
   position: absolute;
   z-index: 100;
   margin-top: 50px;
-  column-width: 100px;
+  padding-top: 10px;
+  column-count: 2;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 6px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-menu::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+
+.dropdown-menu::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb {
+  background: var(--primaryScrollBar);
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb:hover {
+  background: var(--secondaryScrollBar);
 }

@@ -52,6 +52,22 @@ function DropDownMenu({ show, changeLanguage }: DropDownMenu) {
         handler={() => languageChangeHandler('clojure')}
       />
       <DropDownItem
+        language="Crystal"
+        handler={() => languageChangeHandler('crystal')}
+      />
+      <DropDownItem
+        language="Cobol"
+        handler={() => languageChangeHandler('cobol')}
+      />
+      <DropDownItem
+        language="Common Lisp"
+        handler={() => languageChangeHandler('commonlisp')}
+      />
+      <DropDownItem
+        language="CoffeeScript"
+        handler={() => languageChangeHandler('coffeescript')}
+      />
+      <DropDownItem
         language="Dart"
         handler={() => languageChangeHandler('dart')}
       />
@@ -62,6 +78,10 @@ function DropDownMenu({ show, changeLanguage }: DropDownMenu) {
       <DropDownItem
         language="Erlang"
         handler={() => languageChangeHandler('erlang')}
+      />
+      <DropDownItem
+        language="Fortran"
+        handler={() => languageChangeHandler('fortran')}
       />
       <DropDownItem
         language="F#"

@@ -21,6 +21,18 @@ function getExtension(language: string) {
     case 'clojure':
       return 'clj';
 
+    case 'crystal':
+      return 'cr';
+
+    case 'cobol':
+      return 'cob';
+
+    case 'commonlisp':
+      return 'lisp';
+
+    case 'coffeescript':
+      return 'coffee';
+
     case 'dart':
       return 'dart';
 
@@ -29,6 +41,9 @@ function getExtension(language: string) {
 
     case 'erlang':
       return 'erl';
+
+    case 'fortran':
+      return 'f';
 
     case 'fsharp':
       return 'fs';

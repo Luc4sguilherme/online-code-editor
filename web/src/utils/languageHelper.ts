@@ -21,6 +21,18 @@ function getFormatted(language: string) {
     case 'clojure':
       return 'Clojure';
 
+    case 'crystal':
+      return 'Crystal';
+
+    case 'cobol':
+      return 'Cobol';
+
+    case 'commonlisp':
+      return 'Common Lisp';
+
+    case 'coffeescript':
+      return 'CoffeeScript';
+
     case 'dart':
       return 'Dart';
 
@@ -29,6 +41,9 @@ function getFormatted(language: string) {
 
     case 'erlang':
       return 'Erlang';
+
+    case 'fortran':
+      return 'Fortran';
 
     case 'fsharp':
       return 'F#';

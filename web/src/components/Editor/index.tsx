@@ -35,6 +35,11 @@ import 'codemirror/mode/gas/gas';
 import 'codemirror/mode/lua/lua';
 import 'codemirror/mode/pascal/pascal';
 import 'codemirror-mode-elixir';
+import 'codemirror/mode/crystal/crystal';
+import 'codemirror/mode/fortran/fortran';
+import 'codemirror/mode/cobol/cobol';
+import 'codemirror/mode/coffeescript/coffeescript';
+import 'codemirror/mode/commonlisp/commonlisp';
 
 import './style.css';
 

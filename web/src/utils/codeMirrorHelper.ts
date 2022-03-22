@@ -21,6 +21,18 @@ function getMode(language: string) {
     case 'clojure':
       return 'text/x-clojure';
 
+    case 'crystal':
+      return 'text/x-crystal';
+
+    case 'cobol':
+      return 'text/x-cobol';
+
+    case 'commonlisp':
+      return 'text/x-common-lisp';
+
+    case 'coffeescript':
+      return 'text/x-coffeescript';
+
     case 'dart':
       return 'dart';
 
@@ -29,6 +41,9 @@ function getMode(language: string) {
 
     case 'erlang':
       return 'text/x-erlang';
+
+    case 'fortran':
+      return 'text/x-fortran';
 
     case 'fsharp':
       return 'text/x-fsharp';
