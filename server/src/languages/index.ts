@@ -3,6 +3,7 @@ import assembly64bit from './assembly64bit/config';
 import bash from './bash/config';
 import c from './c/config';
 import clojure from './clojure/config';
+import cobol from './cobol/config';
 import cpp from './cpp/config';
 import crystal from './crystal/config';
 import csharp from './csharp/config';
@@ -41,6 +42,7 @@ export default {
   c,
   cpp,
   clojure,
+  cobol,
   csharp,
   crystal,
   dart,

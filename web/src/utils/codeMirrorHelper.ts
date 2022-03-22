@@ -24,6 +24,9 @@ function getMode(language: string) {
     case 'crystal':
       return 'text/x-crystal';
 
+    case 'cobol':
+      return 'text/x-cobol';
+
     case 'dart':
       return 'dart';
 

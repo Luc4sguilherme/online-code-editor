@@ -24,6 +24,9 @@ function getFormatted(language: string) {
     case 'crystal':
       return 'Crystal';
 
+    case 'cobol':
+      return 'Cobol';
+
     case 'dart':
       return 'Dart';
 

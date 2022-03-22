@@ -37,6 +37,7 @@ import 'codemirror/mode/pascal/pascal';
 import 'codemirror-mode-elixir';
 import 'codemirror/mode/crystal/crystal';
 import 'codemirror/mode/fortran/fortran';
+import 'codemirror/mode/cobol/cobol';
 
 import './style.css';
 

@@ -24,6 +24,9 @@ function getExtension(language: string) {
     case 'crystal':
       return 'cr';
 
+    case 'cobol':
+      return 'cob';
+
     case 'dart':
       return 'dart';
 
