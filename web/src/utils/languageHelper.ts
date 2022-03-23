@@ -33,6 +33,9 @@ function getFormatted(language: string) {
     case 'coffeescript':
       return 'CoffeeScript';
 
+    case 'd':
+      return 'D';
+
     case 'dart':
       return 'Dart';
 

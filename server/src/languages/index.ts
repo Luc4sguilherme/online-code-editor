@@ -9,6 +9,7 @@ import commonlisp from './commonlisp/config';
 import cpp from './cpp/config';
 import crystal from './crystal/config';
 import csharp from './csharp/config';
+import d from './d/config';
 import dart from './dart/config';
 import elixir from './elixir/config';
 import erlang from './erlang/config';
@@ -52,6 +53,7 @@ export default {
   coffeescript,
   csharp,
   crystal,
+  d,
   dart,
   elixir,
   erlang,

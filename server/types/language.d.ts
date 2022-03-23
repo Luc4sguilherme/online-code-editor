@@ -10,6 +10,7 @@ export declare type Language =
   | 'cobol'
   | 'commonlisp'
   | 'coffeescript'
+  | 'd'
   | 'dart'
   | 'elixir'
   | 'erlang'

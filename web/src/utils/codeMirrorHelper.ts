@@ -33,6 +33,9 @@ function getMode(language: string) {
     case 'coffeescript':
       return 'text/x-coffeescript';
 
+    case 'd':
+      return 'text/x-d';
+
     case 'dart':
       return 'dart';
 

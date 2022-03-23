@@ -67,6 +67,7 @@ function DropDownMenu({ show, changeLanguage }: DropDownMenu) {
         language="CoffeeScript"
         handler={() => languageChangeHandler('coffeescript')}
       />
+      <DropDownItem language="D" handler={() => languageChangeHandler('d')} />
       <DropDownItem
         language="Dart"
         handler={() => languageChangeHandler('dart')}

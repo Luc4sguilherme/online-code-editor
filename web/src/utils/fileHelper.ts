@@ -33,6 +33,9 @@ function getExtension(language: string) {
     case 'coffeescript':
       return 'coffee';
 
+    case 'd':
+      return 'd';
+
     case 'dart':
       return 'dart';
 
