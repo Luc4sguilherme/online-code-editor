@@ -60,6 +60,9 @@ function getFormatted(language: string) {
     case 'java':
       return 'Java';
 
+    case 'javascriptrhino':
+      return 'Javascript (Rhino)';
+
     case 'javascriptspidermonkey':
       return 'Javascript (Spidermonkey)';
 

@@ -101,6 +101,10 @@ function DropDownMenu({ show, changeLanguage }: DropDownMenu) {
         handler={() => languageChangeHandler('java')}
       />
       <DropDownItem
+        language="Javascript (Rhino)"
+        handler={() => languageChangeHandler('javascriptrhino')}
+      />
+      <DropDownItem
         language="Javascript (Spidermonkey)"
         handler={() => languageChangeHandler('javascriptspidermonkey')}
       />

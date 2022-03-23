@@ -18,6 +18,7 @@ import go from './go/config';
 import groovy from './groovy/config';
 import haskell from './haskell/config';
 import java from './java/config';
+import javascriptrhino from './javascriptrhino/config';
 import javascriptspidermonkey from './javascriptspidermonkey/config';
 import julia from './julia/config';
 import kotlin from './kotlin/config';
@@ -59,6 +60,7 @@ export default {
   groovy,
   haskell,
   java,
+  javascriptrhino,
   javascriptspidermonkey,
   julia,
   kotlin,
