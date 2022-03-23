@@ -37,6 +37,7 @@ import r from './r/config';
 import ruby from './ruby/config';
 import rust from './rust/config';
 import scala from './scala/config';
+import smalltalk from './smalltalk/config';
 import swift from './swift/config';
 import typescript from './typescript/config';
 import visualbasic from './visualbasic/config';
@@ -81,6 +82,7 @@ export default {
   ruby,
   rust,
   scala,
+  smalltalk,
   swift,
   typescript,
   visualbasic,

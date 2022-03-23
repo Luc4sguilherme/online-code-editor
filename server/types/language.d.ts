@@ -38,6 +38,7 @@ export declare type Language =
   | 'ruby'
   | 'rust'
   | 'scala'
+  | 'smalltalk'
   | 'swift'
   | 'typescript'
   | 'visualbasic';

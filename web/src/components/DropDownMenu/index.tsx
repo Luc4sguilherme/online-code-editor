@@ -171,6 +171,10 @@ function DropDownMenu({ show, changeLanguage }: DropDownMenu) {
         handler={() => languageChangeHandler('scala')}
       />
       <DropDownItem
+        language="Smalltalk"
+        handler={() => languageChangeHandler('smalltalk')}
+      />
+      <DropDownItem
         language="Swift"
         handler={() => languageChangeHandler('swift')}
       />

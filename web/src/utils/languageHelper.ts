@@ -114,6 +114,9 @@ function getFormatted(language: string) {
     case 'scala':
       return 'Scala';
 
+    case 'smalltalk':
+      return 'Smalltalk';
+
     case 'swift':
       return 'Swift';
 

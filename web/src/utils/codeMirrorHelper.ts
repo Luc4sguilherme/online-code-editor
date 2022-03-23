@@ -107,6 +107,9 @@ function getMode(language: string) {
     case 'scala':
       return 'text/x-scala';
 
+    case 'smalltalk':
+      return 'text/x-stsrc';
+
     case 'swift':
       return 'text/x-swift';
 

@@ -107,6 +107,9 @@ function getExtension(language: string) {
     case 'scala':
       return 'scala';
 
+    case 'smalltalk':
+      return 'st';
+
     case 'swift':
       return 'swift';
 
