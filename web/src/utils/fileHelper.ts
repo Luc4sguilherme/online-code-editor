@@ -60,6 +60,7 @@ function getExtension(language: string) {
     case 'java':
       return 'java';
 
+    case 'javascriptphantomjs':
     case 'javascriptrhino':
     case 'javascriptspidermonkey':
       return 'js';
