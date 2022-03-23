@@ -19,6 +19,7 @@ export declare type Language =
   | 'groovy'
   | 'haskell'
   | 'java'
+  | 'javascriptspidermonkey'
   | 'julia'
   | 'kotlin'
   | 'lua'

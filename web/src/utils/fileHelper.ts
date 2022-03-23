@@ -60,6 +60,9 @@ function getExtension(language: string) {
     case 'java':
       return 'java';
 
+    case 'javascriptspidermonkey':
+      return 'js';
+
     case 'julia':
       return 'jl';
 

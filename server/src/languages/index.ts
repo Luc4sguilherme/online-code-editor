@@ -18,6 +18,7 @@ import go from './go/config';
 import groovy from './groovy/config';
 import haskell from './haskell/config';
 import java from './java/config';
+import javascriptspidermonkey from './javascriptspidermonkey/config';
 import julia from './julia/config';
 import kotlin from './kotlin/config';
 import lua from './lua/config';
@@ -58,6 +59,7 @@ export default {
   groovy,
   haskell,
   java,
+  javascriptspidermonkey,
   julia,
   kotlin,
   lua,

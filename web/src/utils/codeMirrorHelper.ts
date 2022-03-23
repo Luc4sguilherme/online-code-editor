@@ -60,6 +60,9 @@ function getMode(language: string) {
     case 'java':
       return 'text/x-java';
 
+    case 'javascriptspidermonkey':
+      return 'javascript';
+
     case 'julia':
       return 'text/x-julia';
 
