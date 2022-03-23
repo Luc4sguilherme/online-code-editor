@@ -33,6 +33,9 @@ function getExtension(language: string) {
     case 'coffeescript':
       return 'coffee';
 
+    case 'd':
+      return 'd';
+
     case 'dart':
       return 'dart';
 
@@ -60,6 +63,11 @@ function getExtension(language: string) {
     case 'java':
       return 'java';
 
+    case 'javascriptphantomjs':
+    case 'javascriptrhino':
+    case 'javascriptspidermonkey':
+      return 'js';
+
     case 'julia':
       return 'jl';
 
@@ -74,6 +82,9 @@ function getExtension(language: string) {
 
     case 'objectivec':
       return 'm';
+
+    case 'octave':
+      return 'oct';
 
     case 'ocaml':
       return 'ml';
@@ -98,6 +109,9 @@ function getExtension(language: string) {
 
     case 'scala':
       return 'scala';
+
+    case 'smalltalk':
+      return 'st';
 
     case 'swift':
       return 'swift';

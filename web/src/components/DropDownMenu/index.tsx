@@ -67,6 +67,7 @@ function DropDownMenu({ show, changeLanguage }: DropDownMenu) {
         language="CoffeeScript"
         handler={() => languageChangeHandler('coffeescript')}
       />
+      <DropDownItem language="D" handler={() => languageChangeHandler('d')} />
       <DropDownItem
         language="Dart"
         handler={() => languageChangeHandler('dart')}
@@ -101,6 +102,18 @@ function DropDownMenu({ show, changeLanguage }: DropDownMenu) {
         handler={() => languageChangeHandler('java')}
       />
       <DropDownItem
+        language="Javascript (Phatomjs)"
+        handler={() => languageChangeHandler('javascriptphantomjs')}
+      />
+      <DropDownItem
+        language="Javascript (Rhino)"
+        handler={() => languageChangeHandler('javascriptrhino')}
+      />
+      <DropDownItem
+        language="Javascript (Spidermonkey)"
+        handler={() => languageChangeHandler('javascriptspidermonkey')}
+      />
+      <DropDownItem
         language="Julia"
         handler={() => languageChangeHandler('julia')}
       />
@@ -119,6 +132,10 @@ function DropDownMenu({ show, changeLanguage }: DropDownMenu) {
       <DropDownItem
         language="Objective-C"
         handler={() => languageChangeHandler('objectivec')}
+      />
+      <DropDownItem
+        language="Octave"
+        handler={() => languageChangeHandler('octave')}
       />
       <DropDownItem
         language="OCaml"
@@ -156,6 +173,10 @@ function DropDownMenu({ show, changeLanguage }: DropDownMenu) {
       <DropDownItem
         language="Scala"
         handler={() => languageChangeHandler('scala')}
+      />
+      <DropDownItem
+        language="Smalltalk"
+        handler={() => languageChangeHandler('smalltalk')}
       />
       <DropDownItem
         language="Swift"

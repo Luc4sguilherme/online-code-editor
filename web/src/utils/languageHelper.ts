@@ -33,6 +33,9 @@ function getFormatted(language: string) {
     case 'coffeescript':
       return 'CoffeeScript';
 
+    case 'd':
+      return 'D';
+
     case 'dart':
       return 'Dart';
 
@@ -60,6 +63,15 @@ function getFormatted(language: string) {
     case 'java':
       return 'Java';
 
+    case 'javascriptphantomjs':
+      return 'Javascript (Phantomjs)';
+
+    case 'javascriptrhino':
+      return 'Javascript (Rhino)';
+
+    case 'javascriptspidermonkey':
+      return 'Javascript (Spidermonkey)';
+
     case 'julia':
       return 'Julia';
 
@@ -74,6 +86,9 @@ function getFormatted(language: string) {
 
     case 'objectivec':
       return 'Objective-C';
+
+    case 'octave':
+      return 'Octave';
 
     case 'ocaml':
       return 'OCaml';
@@ -101,6 +116,9 @@ function getFormatted(language: string) {
 
     case 'scala':
       return 'Scala';
+
+    case 'smalltalk':
+      return 'Smalltalk';
 
     case 'swift':
       return 'Swift';

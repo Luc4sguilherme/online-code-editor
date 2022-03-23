@@ -40,6 +40,9 @@ import 'codemirror/mode/fortran/fortran';
 import 'codemirror/mode/cobol/cobol';
 import 'codemirror/mode/coffeescript/coffeescript';
 import 'codemirror/mode/commonlisp/commonlisp';
+import 'codemirror/mode/d/d';
+import 'codemirror/mode/smalltalk/smalltalk';
+import 'codemirror/mode/octave/octave';
 
 import './style.css';
 

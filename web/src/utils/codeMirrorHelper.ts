@@ -33,6 +33,9 @@ function getMode(language: string) {
     case 'coffeescript':
       return 'text/x-coffeescript';
 
+    case 'd':
+      return 'text/x-d';
+
     case 'dart':
       return 'dart';
 
@@ -60,6 +63,11 @@ function getMode(language: string) {
     case 'java':
       return 'text/x-java';
 
+    case 'javascriptphantomjs':
+    case 'javascriptrhino':
+    case 'javascriptspidermonkey':
+      return 'javascript';
+
     case 'julia':
       return 'text/x-julia';
 
@@ -74,6 +82,9 @@ function getMode(language: string) {
 
     case 'objectivec':
       return 'text/x-objectivec';
+
+    case 'octave':
+      return 'text/x-octave';
 
     case 'ocaml':
       return 'text/x-ocaml';
@@ -98,6 +109,9 @@ function getMode(language: string) {
 
     case 'scala':
       return 'text/x-scala';
+
+    case 'smalltalk':
+      return 'text/x-stsrc';
 
     case 'swift':
       return 'text/x-swift';
