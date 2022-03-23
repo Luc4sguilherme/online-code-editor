@@ -83,6 +83,9 @@ function getMode(language: string) {
     case 'objectivec':
       return 'text/x-objectivec';
 
+    case 'octave':
+      return 'text/x-octave';
+
     case 'ocaml':
       return 'text/x-ocaml';
 

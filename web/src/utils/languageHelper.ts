@@ -87,6 +87,9 @@ function getFormatted(language: string) {
     case 'objectivec':
       return 'Objective-C';
 
+    case 'octave':
+      return 'Octave';
+
     case 'ocaml':
       return 'OCaml';
 

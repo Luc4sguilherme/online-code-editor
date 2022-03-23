@@ -134,6 +134,10 @@ function DropDownMenu({ show, changeLanguage }: DropDownMenu) {
         handler={() => languageChangeHandler('objectivec')}
       />
       <DropDownItem
+        language="Octave"
+        handler={() => languageChangeHandler('octave')}
+      />
+      <DropDownItem
         language="OCaml"
         handler={() => languageChangeHandler('ocaml')}
       />

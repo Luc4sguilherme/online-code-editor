@@ -28,6 +28,7 @@ export declare type Language =
   | 'lua'
   | 'nodejs'
   | 'objectivec'
+  | 'octave'
   | 'ocaml'
   | 'pascal'
   | 'perl'

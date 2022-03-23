@@ -83,6 +83,9 @@ function getExtension(language: string) {
     case 'objectivec':
       return 'm';
 
+    case 'octave':
+      return 'oct';
+
     case 'ocaml':
       return 'ml';
 
