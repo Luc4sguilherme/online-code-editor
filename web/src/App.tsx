@@ -11,17 +11,17 @@ import RoutesContainer from './routes';
 function App() {
   return (
     <ErrorProvider>
-      <AuthProvider>
-        <LanguageProvider>
-          <CodeProvider>
+      <LanguageProvider>
+        <CodeProvider>
+          <AuthProvider>
             <ThemeProvider>
               <ResultProvider>
                 <RoutesContainer />
               </ResultProvider>
             </ThemeProvider>
-          </CodeProvider>
-        </LanguageProvider>
-      </AuthProvider>
+          </AuthProvider>
+        </CodeProvider>
+      </LanguageProvider>
     </ErrorProvider>
   );
 }
