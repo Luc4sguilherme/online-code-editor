@@ -6,6 +6,7 @@ import fileHelper from '../utils/fileHelper';
 import { useCode } from './codeContext';
 import { useError } from './errorContext';
 import { useLanguage } from './languageContext';
+import { useLoading } from './loadingContext';
 
 interface ResultContextData {
   result: string;
@@ -25,6 +26,7 @@ export function ResultProvider({ children }: ResultProviderProps) {
   const { code } = useCode();
   const { language } = useLanguage();
   const { setError } = useError();
+  const { setLoading } = useLoading();
 
   function clearResult() {
     setResult('');
@@ -36,6 +38,8 @@ export function ResultProvider({ children }: ResultProviderProps) {
       const codeFile = fileHelper.createFile(code, language);
 
       formData.append('code-file', codeFile);
+
+      setLoading(true);
 
       const response = await api.post(`code/execute/${language}`, formData, {
         headers: {
@@ -55,6 +59,8 @@ export function ResultProvider({ children }: ResultProviderProps) {
       } else if (error instanceof Error) {
         setError(error.message);
       }
+    } finally {
+      setLoading(false);
     }
   }
 

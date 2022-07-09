@@ -29,6 +29,7 @@
 }
 
 .result-wrapper {
+  display: flex;
   height: 100%;
   width: 100%;
   color: var(--primaryText);
@@ -90,6 +91,7 @@ iframe {
 
 ::-webkit-scrollbar {
   width: 8px;
+  height: 8px;
 }
 
 ::-webkit-scrollbar-track {
