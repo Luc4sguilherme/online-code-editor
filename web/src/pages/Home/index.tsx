@@ -6,15 +6,18 @@ import DragHandleIcon from '@mui/icons-material/DragHandle';
 
 import Editor from '../../components/Editor';
 import Error from '../../components/Error';
+import Loading from '../../components/Loading';
 import Menu from '../../components/Menu';
 import { useCode } from '../../contexts/codeContext';
 import { useLanguage } from '../../contexts/languageContext';
+import { useLoading } from '../../contexts/loadingContext';
 import { useResult } from '../../contexts/resultContext';
 
 function Home() {
   const { language } = useLanguage();
   const { result } = useResult();
   const { code, setCode } = useCode();
+  const { loading } = useLoading();
 
   const [paneBottomHeight, setPaneBottomHeight] = useState('50%');
   const [editorDragCoverDisplay, setEditorDragCoverDisplay] = useState('none');
@@ -125,7 +128,7 @@ function Home() {
               <DragHandleIcon style={{ color: 'var(--primaryText)' }} />
             </div>
             <div className="result-wrapper">
-              <pre id="result-area">{result}</pre>
+              {loading ? <Loading /> : <pre id="result-area">{result}</pre>}
             </div>
           </div>
         </div>
