@@ -1,6 +1,6 @@
 import CodeMirror from 'codemirror';
 import React from 'react';
-import { Controlled as ControlledEditor } from 'react-codemirror2';
+import { Controlled as ControlledEditor } from 'react-codemirror2-react-17';
 
 import 'codemirror/addon/hint/show-hint';
 import 'codemirror/addon/hint/show-hint.css';
