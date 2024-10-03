@@ -23,7 +23,7 @@ This project was developed with the following technologies:
 
 ## :information_source: How To Use
 
-- From your command line: `docker-compose -d up`
+- From your command line: `docker-compose up -d`
 - Access the URL in your browser: `http://localhost`
 
 ## Author
